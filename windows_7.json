@@ -39,7 +39,7 @@
       "boot_wait": "2m",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
-      "ssh_wait_timeout": "4h",
+      "ssh_wait_timeout": "8h",
       "shutdown_command": "shutdown /s /t 10 /f /d p:4:1 /c \"Packer Shutdown\"",
       "guest_os_type": "Windows7_64",
       "disk_size": 81920,
@@ -89,7 +89,7 @@
     {
       "type": "vagrant",
       "keep_input_artifact": false,
-      "output": "windows_7_{{.Provider}}_chocolatey.box",
+      "output": "windows_7_{{.Provider}}_develop.box",
       "vagrantfile_template": "vagrantfile-windows_7.template"
     }
   ]

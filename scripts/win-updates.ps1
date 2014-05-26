@@ -1,6 +1,6 @@
 param($global:RestartRequired=0,
         $global:MoreUpdates=0,
-        $global:MaxCycles=5)
+        $global:MaxCycles=10)
 
 function Check-ContinueRestartOrEnd() {
     $RegistryKey = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run"
