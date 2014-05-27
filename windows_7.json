@@ -73,8 +73,7 @@
       "execute_command": "{{.Vars}} cmd /c C:/Windows/Temp/script.bat",
       "scripts": [
         "./scripts/vm-guest-tools.bat",
-        "./scripts/chocolatey.bat",
-        "./scripts/chocopacks.bat",
+		"./scripts/puppet.bat",
         "./scripts/vagrant-ssh.bat"
       ]
     },
@@ -89,7 +88,7 @@
     {
       "type": "vagrant",
       "keep_input_artifact": false,
-      "output": "windows_7_{{.Provider}}_develop.box",
+      "output": "windows_7_{{.Provider}}_puppet_3.6.1_base.box",
       "vagrantfile_template": "vagrantfile-windows_7.template"
     }
   ]
