@@ -32,6 +32,7 @@
     },
     {
       "type": "virtualbox-iso",
+      "vm_name": "packer-windows-7-puppet-3.6.1",
       "iso_url": "./iso/7600.16385.090713-1255_x64fre_enterprise_en-us_EVAL_Eval_Enterprise-GRMCENXEVAL_EN_DVD.iso",
       "iso_checksum_type": "md5",
       "iso_checksum": "1d0d239a252cb53e466d39e752b17c28",
