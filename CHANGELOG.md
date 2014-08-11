@@ -1,3 +1,19 @@
+## v1.22 (not yet released)
+
+* Forward SSH port by default on Vagrant boxes (#76)
+
+## v1.21 (Aug 6th, 2014)
+
+* Added rsync.bat as an optional script to include rsync capabilities to the vagrant box (#88)
+* RDP now enabled for use with vagrant (#75)
+
+## v1.20 (July 21st, 2014)
+
+* Update Chocolatey script for Chocolatey 0.9.8.27
+* Password for Vagrant user never expires
+* Salt installation script
+* Microsoft-updates.bat script for Win 7/8
+
 ## v1.19 (May 17th, 2014)
 
 * Enable Microsoft Updates by default (#60)
@@ -85,3 +101,4 @@
 ## v1.1 (December 17, 2013)
 
 * Initial release, including working Windows 2008 R2 configuration
+
